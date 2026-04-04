@@ -16,6 +16,9 @@ export default function Navbar() {
             <Link href="#help" className="text-gray-700 hover:text-green-700 font-medium transition">
               Legal Help
             </Link>
+            <Link href="/fir-guide" className="text-red-700 hover:text-red-800 font-medium transition">
+              FIR Guide 🚔
+            </Link>
             <Link href="#documents" className="text-gray-700 hover:text-green-700 font-medium transition">
               Documents
             </Link>

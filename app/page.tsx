@@ -1,5 +1,6 @@
 'use client';
 
+import Link from 'next/link';
 import Navbar from '@/components/Navbar';
 import TrustBanner from '@/components/TrustBanner';
 import EmergencyHelp from '@/components/EmergencyHelp';
@@ -12,7 +13,6 @@ export default function Home() {
   const [query, setQuery] = useState('');
   const [reply, setReply] = useState('');
   const [isLoading, setIsLoading] = useState(false);
-  const [selectedCategory, setSelectedCategory] = useState('');
   const resultsRef = useRef<HTMLDivElement>(null);
 
   const submitQuery = async () => {
@@ -169,6 +169,31 @@ export default function Home() {
         </div>
       </section>
 
+      {/* FIR Guide Banner */}
+      <section className="py-8 px-4">
+        <div className="max-w-6xl mx-auto">
+          <div className="bg-red-50 border-2 border-red-500 rounded-xl p-6 shadow-lg">
+            <div className="flex flex-col md:flex-row items-center gap-6">
+              <div className="flex-shrink-0">
+                <span className="text-4xl">🚔</span>
+              </div>
+              <div className="flex-1 text-center md:text-left">
+                <h3 className="text-xl font-bold text-red-800 mb-2">FIR Guide</h3>
+                <p className="text-red-700 mb-4">
+                  Step-by-step FIR filing guide - Apna haq jaano!
+                </p>
+                <Link
+                  href="/fir-guide"
+                  className="inline-flex items-center gap-2 bg-red-600 hover:bg-red-700 text-white font-semibold py-2 px-4 rounded-lg transition-colors"
+                >
+                  Guide Dekho →
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Legal Categories */}
       <section id="help" className="py-12 px-4 bg-green-50">
         <div className="max-w-6xl mx-auto">
@@ -179,9 +204,9 @@ export default function Home() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             {categories.map((category) => (
-              <div key={category.id} onClick={() => setSelectedCategory(category.id)}>
+              <Link key={category.id} href={`/legal/${category.slug}`}>
                 <LegalCategoryCard category={category} />
-              </div>
+              </Link>
             ))}
           </div>
         </div>
@@ -205,9 +230,12 @@ export default function Home() {
                 <h3 className="font-bold text-gray-800 mb-1">{template.name}</h3>
                 <p className="text-xs text-gray-600 italic mb-3">{template.name_hindi}</p>
                 <p className="text-sm text-gray-700 mb-4">{template.description}</p>
-                <button className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 rounded-lg transition text-sm">
+                <Link
+                  href={`/draft/${template.id}`}
+                  className="inline-flex items-center justify-center w-full bg-green-700 hover:bg-green-800 text-white font-semibold py-2 rounded-lg transition text-sm"
+                >
                   Draft Karo →
-                </button>
+                </Link>
               </div>
             ))}
           </div>

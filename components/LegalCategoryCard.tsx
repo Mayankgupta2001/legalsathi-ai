@@ -1,5 +1,3 @@
-import { ReactNode } from 'react';
-
 interface LegalCategory {
   id: string;
   slug: string;
@@ -16,7 +14,6 @@ interface LegalCategory {
 
 interface Props {
   category: LegalCategory;
-  onClick?: () => void;
 }
 
 const colorClasses: Record<string, string> = {
@@ -36,14 +33,13 @@ const urgencyBadge: Record<string, string> = {
   high: 'bg-red-100 text-red-800',
 };
 
-export default function LegalCategoryCard({ category, onClick }: Props) {
+export default function LegalCategoryCard({ category }: Props) {
   const borderClass = colorClasses[category.color] || colorClasses.blue;
   const urgencyClass = urgencyBadge[category.urgency] || urgencyBadge.medium;
 
   return (
     <div
-      onClick={onClick}
-      className={`border-2 rounded-lg p-6 cursor-pointer transition-all ${borderClass}`}
+      className={`border-2 rounded-lg p-6 cursor-pointer transition-all duration-200 hover:shadow-lg hover:scale-105 ${borderClass}`}
     >
       <div className="flex items-start justify-between mb-3">
         <div>
@@ -72,11 +68,15 @@ export default function LegalCategoryCard({ category, onClick }: Props) {
       </div>
 
       {category.helpline && (
-        <div className="text-xs bg-blue-50 p-2 rounded border border-blue-200">
+        <div className="text-xs bg-blue-50 p-2 rounded border border-blue-200 mb-3">
           <span className="font-semibold">📞 </span>
           <span className="text-blue-800">{category.helpline}</span>
         </div>
       )}
+
+      <div className="text-green-600 font-semibold text-sm">
+        Jaankari Lo →
+      </div>
     </div>
   );
 }
