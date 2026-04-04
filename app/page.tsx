@@ -12,6 +12,7 @@ export default function Home() {
   const [query, setQuery] = useState('');
   const [reply, setReply] = useState('');
   const [isLoading, setIsLoading] = useState(false);
+  const [selectedCategory, setSelectedCategory] = useState('');
   const resultsRef = useRef<HTMLDivElement>(null);
 
   const submitQuery = async () => {
