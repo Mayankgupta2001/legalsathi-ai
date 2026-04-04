@@ -1,0 +1,428 @@
+[
+  {
+    "id": "legal-notice",
+    "name": "Legal Notice",
+    "name_hindi": "कानूनी नोटिस",
+    "category": "consumer-rights",
+    "description": "Kisi ko official legal notice bhejna",
+    "fields": [
+      {
+        "id": "sender_name",
+        "label": "Aapka Naam",
+        "type": "text",
+        "required": true
+      },
+      {
+        "id": "sender_address",
+        "label": "Aapka Address",
+        "type": "text",
+        "required": true
+      },
+      {
+        "id": "receiver_name",
+        "label": "Jise Notice Bhejna Hai",
+        "type": "text",
+        "required": true
+      },
+      {
+        "id": "receiver_address",
+        "label": "Unka Address",
+        "type": "text",
+        "required": true
+      },
+      {
+        "id": "issue_description",
+        "label": "Samasya Ka Pura Description",
+        "type": "textarea",
+        "required": true
+      },
+      {
+        "id": "amount",
+        "label": "Rakam (agar monetary issue hai)",
+        "type": "text",
+        "required": false
+      },
+      {
+        "id": "deadline_days",
+        "label": "Jawab Dene Ke Kitne Din (usually 30)",
+        "type": "number",
+        "required": true
+      },
+      {
+        "id": "date",
+        "label": "Aaj Ka Date",
+        "type": "text",
+        "required": true
+      }
+    ]
+  },
+  {
+    "id": "rti-application",
+    "name": "RTI Application",
+    "name_hindi": "आरटीआई आवेदन",
+    "category": "rti-application",
+    "description": "Government se information maangne ke liye",
+    "fields": [
+      {
+        "id": "applicant_name",
+        "label": "Aapka Naam",
+        "type": "text",
+        "required": true
+      },
+      {
+        "id": "applicant_address",
+        "label": "Aapka Address",
+        "type": "text",
+        "required": true
+      },
+      {
+        "id": "department",
+        "label": "Kis Department Se Maang Rahe Ho",
+        "type": "text",
+        "required": true
+      },
+      {
+        "id": "information_needed",
+        "label": "Exact Information Chahiye (Detailed)",
+        "type": "textarea",
+        "required": true
+      },
+      {
+        "id": "time_period",
+        "label": "Kis Time Period Ka Data",
+        "type": "text",
+        "required": false
+      },
+      {
+        "id": "date",
+        "label": "Application Ki Date",
+        "type": "text",
+        "required": true
+      }
+    ]
+  },
+  {
+    "id": "consumer-complaint",
+    "name": "Consumer Complaint",
+    "name_hindi": "उपभोक्ता शिकायत",
+    "category": "consumer-rights",
+    "description": "Consumer forum mein complaint file karna",
+    "fields": [
+      {
+        "id": "complainant_name",
+        "label": "Complainant Ka Naam",
+        "type": "text",
+        "required": true
+      },
+      {
+        "id": "complainant_address",
+        "label": "Address",
+        "type": "text",
+        "required": true
+      },
+      {
+        "id": "product_service",
+        "label": "Product/Service Ka Naam",
+        "type": "text",
+        "required": true
+      },
+      {
+        "id": "defect_description",
+        "label": "Kya Galat Tha (Detailed)",
+        "type": "textarea",
+        "required": true
+      },
+      {
+        "id": "purchase_date",
+        "label": "Kab Kharida",
+        "type": "text",
+        "required": true
+      },
+      {
+        "id": "amount",
+        "label": "Kitne Ka Tha",
+        "type": "text",
+        "required": true
+      },
+      {
+        "id": "compensation",
+        "label": "Kya Compensation Chahiye",
+        "type": "textarea",
+        "required": true
+      }
+    ]
+  },
+  {
+    "id": "police-complaint",
+    "name": "Police Complaint",
+    "name_hindi": "पुलिस शिकायत",
+    "category": "police-fir",
+    "description": "Police ko written complaint dena",
+    "fields": [
+      {
+        "id": "complainant_name",
+        "label": "Complainant Ka Naam",
+        "type": "text",
+        "required": true
+      },
+      {
+        "id": "complainant_address",
+        "label": "Address",
+        "type": "text",
+        "required": true
+      },
+      {
+        "id": "incident_date",
+        "label": "Kab Hua Incident",
+        "type": "text",
+        "required": true
+      },
+      {
+        "id": "incident_location",
+        "label": "Kaha Hua",
+        "type": "text",
+        "required": true
+      },
+      {
+        "id": "incident_description",
+        "label": "Kya Hua - Saara Detail",
+        "type": "textarea",
+        "required": true
+      },
+      {
+        "id": "witness_info",
+        "label": "Agar Witness Hai Toh Unka Nam",
+        "type": "text",
+        "required": false
+      },
+      {
+        "id": "accused_info",
+        "label": "Agar Accused Ka Pata Hai",
+        "type": "text",
+        "required": false
+      }
+    ]
+  },
+  {
+    "id": "rent-agreement",
+    "name": "Rent Agreement",
+    "name_hindi": "किराया समझौता",
+    "category": "tenant-rights",
+    "description": "Simple rent agreement likha dena",
+    "fields": [
+      {
+        "id": "landlord_name",
+        "label": "Landlord Ka Naam",
+        "type": "text",
+        "required": true
+      },
+      {
+        "id": "tenant_name",
+        "label": "Tenant Ka Naam",
+        "type": "text",
+        "required": true
+      },
+      {
+        "id": "property_address",
+        "label": "Property Ka Address",
+        "type": "text",
+        "required": true
+      },
+      {
+        "id": "monthly_rent",
+        "label": "Monthly Rent Amount",
+        "type": "text",
+        "required": true
+      },
+      {
+        "id": "security_deposit",
+        "label": "Security Deposit Amount",
+        "type": "text",
+        "required": true
+      },
+      {
+        "id": "lease_period",
+        "label": "Lease Period (Mahine mein)",
+        "type": "number",
+        "required": true
+      },
+      {
+        "id": "start_date",
+        "label": "Agreement Start Date",
+        "type": "text",
+        "required": true
+      }
+    ]
+  },
+  {
+    "id": "salary-demand",
+    "name": "Salary Demand Letter",
+    "name_hindi": "वेतन मांग पत्र",
+    "category": "labour-rights",
+    "description": "Employer ko pending salary ke liye letter",
+    "fields": [
+      {
+        "id": "employee_name",
+        "label": "Employee Naam",
+        "type": "text",
+        "required": true
+      },
+      {
+        "id": "employee_id",
+        "label": "Employee ID (agar hai)",
+        "type": "text",
+        "required": false
+      },
+      {
+        "id": "employer_name",
+        "label": "Employer/Company Naam",
+        "type": "text",
+        "required": true
+      },
+      {
+        "id": "salary_amount",
+        "label": "Pending Salary Amount",
+        "type": "text",
+        "required": true
+      },
+      {
+        "id": "period",
+        "label": "Salary Kis Period Ka Hai",
+        "type": "text",
+        "required": true
+      },
+      {
+        "id": "payment_date",
+        "label": "Kab Payment Hona Chahiye Tha",
+        "type": "text",
+        "required": true
+      },
+      {
+        "id": "deadline",
+        "label": "Kitne Din Mein Payment Chahiye",
+        "type": "number",
+        "required": true
+      }
+    ]
+  },
+  {
+    "id": "cyber-complaint",
+    "name": "Cyber Crime Complaint",
+    "name_hindi": "साइबर अपराध शिकायत",
+    "category": "cyber-crime",
+    "description": "Online fraud ya hacking ke liye complaint",
+    "fields": [
+      {
+        "id": "victim_name",
+        "label": "Apnda Naam",
+        "type": "text",
+        "required": true
+      },
+      {
+        "id": "victim_email",
+        "label": "Email Address",
+        "type": "text",
+        "required": true
+      },
+      {
+        "id": "victim_contact",
+        "label": "Phone Number",
+        "type": "text",
+        "required": true
+      },
+      {
+        "id": "crime_type",
+        "label": "Crime Type (phishing, hacking, fraud, etc)",
+        "type": "text",
+        "required": true
+      },
+      {
+        "id": "incident_date",
+        "label": "Kab Hua",
+        "type": "text",
+        "required": true
+      },
+      {
+        "id": "crime_description",
+        "label": "Kya Hua - Details",
+        "type": "textarea",
+        "required": true
+      },
+      {
+        "id": "amount_lost",
+        "label": "Kitna Loss Hua (agar monetary)",
+        "type": "text",
+        "required": false
+      },
+      {
+        "id": "evidence",
+        "label": "Kya Evidence Hai (screenshots, etc)",
+        "type": "textarea",
+        "required": false
+      }
+    ]
+  },
+  {
+    "id": "harassment-complaint",
+    "name": "Workplace Harassment Complaint",
+    "name_hindi": "कार्यस्थल उत्पीड़न शिकायत",
+    "category": "labour-rights",
+    "description": "HR Ko workplace harassment complaint",
+    "fields": [
+      {
+        "id": "complainant_name",
+        "label": "Aapka Naam",
+        "type": "text",
+        "required": true
+      },
+      {
+        "id": "employee_id",
+        "label": "Employee ID",
+        "type": "text",
+        "required": true
+      },
+      {
+        "id": "organization",
+        "label": "Organization Name",
+        "type": "text",
+        "required": true
+      },
+      {
+        "id": "accused_name",
+        "label": "Harassment Karne Wala Naam",
+        "type": "text",
+        "required": true
+      },
+      {
+        "id": "accused_position",
+        "label": "Unka Position",
+        "type": "text",
+        "required": true
+      },
+      {
+        "id": "harassment_type",
+        "label": "Harassment Ka Type (gender, caste, etc)",
+        "type": "text",
+        "required": true
+      },
+      {
+        "id": "incident_description",
+        "label": "Kya Hua - Detailed Description",
+        "type": "textarea",
+        "required": true
+      },
+      {
+        "id": "incident_date",
+        "label": "Kab Hua",
+        "type": "text",
+        "required": true
+      },
+      {
+        "id": "witnesses",
+        "label": "Agar Witness Hai Toh Naam",
+        "type": "text",
+        "required": false
+      }
+    ]
+  }
+]

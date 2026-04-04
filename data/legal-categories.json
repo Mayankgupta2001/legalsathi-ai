@@ -1,0 +1,269 @@
+[
+  {
+    "id": "consumer-rights",
+    "slug": "consumer-rights",
+    "name": "Consumer Rights",
+    "name_hindi": "उपभोक्ता अधिकार",
+    "emoji": "🛒",
+    "description": "Online order nahi aaya, product defective nikla, service complaint, online fraud se protection",
+    "color": "blue",
+    "common_issues": [
+      "Online order nahi aaya",
+      "Product defective nikla",
+      "Service nahi mili",
+      "Wrong item bhej diya",
+      "Money nahi wapas"
+    ],
+    "key_rights": [
+      "Right to Refund within 30 days",
+      "Consumer Forum mein complaint free hai",
+      "Seller ko compensation dena hoga"
+    ],
+    "helpline": "1800-11-4000",
+    "urgency": "medium"
+  },
+  {
+    "id": "labour-rights",
+    "slug": "labour-rights",
+    "name": "Labour Rights",
+    "name_hindi": "मजदूर अधिकार",
+    "emoji": "⚒️",
+    "description": "Salary nahi mili, wrongful termination, overtime payment, workplace safety issues",
+    "color": "orange",
+    "common_issues": [
+      "Salary nahi mili ya delayed",
+      "Ek dam se job se nikala",
+      "Overtime ka paise nahi",
+      "Unsafe working conditions"
+    ],
+    "key_rights": [
+      "Minimum wage guaranteed",
+      "Right to notice before termination",
+      "Free legal aid available"
+    ],
+    "helpline": "1800-11-4000",
+    "urgency": "high"
+  },
+  {
+    "id": "women-safety",
+    "slug": "women-safety",
+    "name": "Women Safety",
+    "name_hindi": "महिला सुरक्षा",
+    "emoji": "👩",
+    "description": "Harassment, domestic violence, workplace safety, dowry harassment, sexual assault",
+    "color": "pink",
+    "common_issues": [
+      "Harassment at workplace",
+      "Domestic violence",
+      "Dowry demands",
+      "Sexual harassment",
+      "Forced marriage"
+    ],
+    "key_rights": [
+      "Protection from harassment",
+      "Restraining orders possible",
+      "24/7 Women Helpline"
+    ],
+    "helpline": "1091",
+    "urgency": "high"
+  },
+  {
+    "id": "tenant-rights",
+    "slug": "tenant-rights",
+    "name": "Tenant Rights",
+    "name_hindi": "किरायेदार अधिकार",
+    "emoji": "🏠",
+    "description": "Landlord harassment, illegal eviction, rent disputes, security deposit ka paise",
+    "color": "green",
+    "common_issues": [
+      "Rent unexpected badhao",
+      "Security deposit nahi mila",
+      "Illegal eviction notice",
+      "House ka maintenance nahi"
+    ],
+    "key_rights": [
+      "Written agreement zaroori hai",
+      "Notice period lagta hai",
+      "Security deposit 30 din mein wapas"
+    ],
+    "helpline": "1800-11-4000",
+    "urgency": "high"
+  },
+  {
+    "id": "police-fir",
+    "slug": "police-fir",
+    "name": "Police & FIR",
+    "name_hindi": "पुलिस और एफआईआर",
+    "emoji": "🚔",
+    "description": "FIR kaise karein, rights during arrest, police custody, bail procedures",
+    "color": "red",
+    "common_issues": [
+      "FIR likha na de",
+      "Police false case kare",
+      "Unlawful arrest",
+      "Police custody tension"
+    ],
+    "key_rights": [
+      "FIR likha dena police ka duty hai",
+      "Lawyer ke saath baat karte hue rights",
+      "Bail possible rehta hai har case mein"
+    ],
+    "helpline": "112",
+    "urgency": "high"
+  },
+  {
+    "id": "rti-application",
+    "slug": "rti-application",
+    "name": "RTI Application",
+    "name_hindi": "आरटीआई आवेदन",
+    "emoji": "📋",
+    "description": "Government information maangna, corruption expose, public documents, transparency",
+    "color": "purple",
+    "common_issues": [
+      "Rishwat (Corruption) show karna",
+      "Government decision jaanna",
+      "Public records access",
+      "Tenure documents"
+    ],
+    "key_rights": [
+      "Right to information (RTI) - bilkul free",
+      "30 days mein jawaab milna chahiye",
+      "Refusal ko challenge kar sakte ho"
+    ],
+    "helpline": "1800-11-4000",
+    "urgency": "low"
+  },
+  {
+    "id": "property-dispute",
+    "slug": "property-dispute",
+    "name": "Property Dispute",
+    "name_hindi": "संपत्ति विवाद",
+    "emoji": "🏘️",
+    "description": "Land fraud, inheritance disputes, boundary issues, illegal occupation, forged documents",
+    "color": "indigo",
+    "common_issues": [
+      "Land fraud hua",
+      "Inheritance mein jhamelaa",
+      "Boundary issue ho gya",
+      "Old deed register mein nahi"
+    ],
+    "key_rights": [
+      "Documentary evidence zaroori",
+      "Court order lena padega",
+      "Legal heir recognition"
+    ],
+    "helpline": "1800-11-4000",
+    "urgency": "medium"
+  },
+  {
+    "id": "cyber-crime",
+    "slug": "cyber-crime",
+    "name": "Cyber Crime",
+    "name_hindi": "साइबर अपराध",
+    "emoji": "💻",
+    "description": "Online fraud, identity theft, hacking, online harassment, fake profiles, scams",
+    "color": "blue",
+    "common_issues": [
+      "Online fraud ho gya",
+      "Account hack ho gya",
+      "Password change nahi ho raha",
+      "Fake profile mental harassment kar rahe"
+    ],
+    "key_rights": [
+      "Cyber police station complaint daal sakte ho",
+      "Online evidence save karna zaroori",
+      "Cybercrime helpline free help dega"
+    ],
+    "helpline": "1930",
+    "urgency": "high"
+  },
+  {
+    "id": "banking-fraud",
+    "slug": "banking-fraud",
+    "name": "Banking Fraud",
+    "name_hindi": "बैंकिंग धोखाधड़ी",
+    "emoji": "🏦",
+    "description": "UPI fraud, loan harassment, unauthorized transactions, unjustified charges, credit issues",
+    "color": "green",
+    "common_issues": [
+      "UPI se paise gaye, product nahi mila",
+      "Bank unauthorized charge kiya",
+      "Loan se pressure badha",
+      "Credit card se fraud hua"
+    ],
+    "key_rights": [
+      "Bank ko claim file kar sakte ho",
+      "RBI complaint possible",
+      "Chargeback option rehta" 
+    ],
+    "helpline": "1800-11-4000",
+    "urgency": "high"
+  },
+  {
+    "id": "medical-negligence",
+    "slug": "medical-negligence",
+    "name": "Medical Negligence",
+    "name_hindi": "चिकित्सा लापरवाही",
+    "emoji": "🏥",
+    "description": "Doctor negligence, surgical errors, hospital bills disputes, medicine side effects, wrong treatment",
+    "color": "red",
+    "common_issues": [
+      "Wrong surgery ho gya",
+      "Doctor galat treatment kiya",
+      "Hospital bill bilkul zyada",
+      "Medicine se side effects"
+    ],
+    "key_rights": [
+      "Medical board se expert opinion la sakte ho",
+      "Compensation claim kar sakte ho",
+      "Hospital record demand zaroor hai"
+    ],
+    "helpline": "1800-11-4000",
+    "urgency": "high"
+  },
+  {
+    "id": "family-law",
+    "slug": "family-law",
+    "name": "Family Law",
+    "name_hindi": "परिवार कानून",
+    "emoji": "👨‍👩‍👧",
+    "description": "Divorce, maintenance, child custody, inheritance, separation, alimony, guardianship",
+    "color": "purple",
+    "common_issues": [
+      "Divorce lete waqt bachchon ka kya",
+      "Ghar se nikal diya",
+      "Maintenance nahi mila",
+      "Stridhan ke liye jhagda"
+    ],
+    "key_rights": [
+      "Child custody court decide karega",
+      "Maintenance rights fixed hain",
+      "Mutual divorce 6 mahine mein possible"
+    ],
+    "helpline": "1800-11-4000",
+    "urgency": "medium"
+  },
+  {
+    "id": "employment-law",
+    "slug": "employment-law",
+    "name": "Employment Law",
+    "name_hindi": "रोजगार कानून",
+    "emoji": "💼",
+    "description": "PF issues, workplace discrimination, unfair termination, contract disputes, benefits denial",
+    "color": "yellow",
+    "common_issues": [
+      "PF nahi milay",
+      "Gratuity calculate nahi hua",
+      "Caste discrimination", 
+      "Gender-based unfair treatment",
+      "Contract terms change"
+    ],
+    "key_rights": [
+      "PF deduction legally mandatory",
+      "Gratuity claim possible",
+      "Anti-discrimination laws"
+    ],
+    "helpline": "1800-11-4000",
+    "urgency": "medium"
+  }
+]
