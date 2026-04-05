@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import { GoogleAnalytics } from "@next/third-parties/google";
+import Script from "next/script";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -13,8 +15,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "SarkariMitra AI - Government Forms Guide",
-  description: "AI-powered step-by-step guide for 50+ Indian government forms. Free!",
+  title: "LegalSathi AI - Free Legal Help for Indians",
+  description: "Free AI-powered legal guidance in Hindi. Know your rights! 100% Free.",
   verification: {
     google: "1q8Om_MrxenH3-Di3OiP7ds3Bi7wmVsS8gGb6Og_wgw",
   },
@@ -30,7 +32,18 @@ export default function RootLayout({
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <head>
+        <Script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4314810893346292"
+          crossOrigin="anonymous"
+          strategy="afterInteractive"
+        />
+      </head>
+      <body className="min-h-full flex flex-col">
+        {children}
+      </body>
+      <GoogleAnalytics gaId="G-C3D0W30EJH" />
     </html>
   );
 }
