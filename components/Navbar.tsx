@@ -22,6 +22,9 @@ export default function Navbar() {
             <Link href="#documents" className="text-gray-700 hover:text-green-700 font-medium transition">
               Documents
             </Link>
+            <Link href="/blog" className="text-indigo-700 hover:text-indigo-800 font-medium transition">
+              Blog 📚
+            </Link>
             <Link href="#emergency" className="text-gray-700 hover:text-green-700 font-medium transition">
               Emergency
             </Link>
