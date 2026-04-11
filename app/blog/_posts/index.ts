@@ -452,6 +452,469 @@ Subject: RTI Application under RTI Act 2005
 🌐 rtionline.gov.in
     `,
   },
+  // Yeh 6 naye articles existing blogPosts array mein ADD karo
+// app/blog/_posts/index.ts mein existing array ke end mein paste karo (closing ] se pehle)
+
+  {
+    slug: 'divorce-process-india',
+    title: 'Divorce कैसे होता है — India में तलाक की पूरी प्रक्रिया 2025',
+    description: 'Mutual consent divorce, contested divorce — court mein kya hota hai, kitna time lagta hai, alimony kaise milti hai. Hindi mein puri jankaari.',
+    category: 'Family Law',
+    categoryColor: 'bg-pink-100 text-pink-700',
+    icon: '⚖️',
+    date: '9 अप्रैल 2025',
+    readTime: '6 मिनट',
+    content: `
+## Divorce — India में कानूनी प्रक्रिया
+
+Divorce एक कठिन निर्णय है। कानूनी प्रक्रिया को समझें।
+
+## दो प्रकार के Divorce
+
+### Mutual Consent Divorce (आपसी सहमति):
+- दोनों पति-पत्नी राजी हों
+- 6-18 महीने में हो जाता है
+- कम खर्चीला
+
+### Contested Divorce (एकतरफा):
+- एक पक्ष राजी नहीं
+- 2-5 साल लग सकते हैं
+- ज्यादा खर्च
+
+## Mutual Consent Divorce Process
+
+1. Joint petition file करें Family Court में
+2. पहली hearing — statement record
+3. 6 महीने का cooling period
+4. दूसरी hearing — final divorce
+
+Grounds नहीं बताने पड़ते — सिर्फ mutual agreement।
+
+## Contested Divorce के Grounds
+
+Hindu Marriage Act के तहत:
+- ✅ Adultery (व्यभिचार)
+- ✅ Cruelty — physical या mental
+- ✅ Desertion — 2 साल से अलग
+- ✅ Mental disorder
+- ✅ Leprosy या STD
+- ✅ Renunciation of world
+
+## Alimony (गुजारा भत्ता)
+
+- Wife को maintenance मिल सकती है
+- Husband की income पर निर्भर
+- Court तय करती है
+- Permanent या temporary हो सकती है
+
+## बच्चों की Custody
+
+- Court बच्चे का हित सबसे पहले देखती है
+- आमतौर पर: छोटे बच्चे — माँ के पास
+- Visitation rights पिता को मिलते हैं
+
+## जरूरी दस्तावेज
+
+- ✅ Marriage certificate
+- ✅ आधार कार्ड दोनों का
+- ✅ Income proof
+- ✅ Property documents
+- ✅ बच्चों के documents
+
+## Mediation पहले Try करें
+
+Court से पहले:
+- Family counselor से मिलें
+- Mediation centre में जाएं — Free
+- Reconciliation की कोशिश करें
+
+📞 Legal Aid: 15100 (Free)
+📞 Family Court — नजदीकी जिला न्यायालय
+    `,
+  },
+  {
+    slug: 'tenant-rights-india',
+    title: 'किरायेदार के अधिकार — Rent Agreement और Tenant Rights 2025',
+    description: 'Rent agreement क्या होता है, किरायेदार के क्या अधिकार हैं, मकान मालिक अचानक नहीं निकाल सकता — पूरी जानकारी हिंदी में।',
+    category: 'Property',
+    categoryColor: 'bg-green-100 text-green-700',
+    icon: '🏠',
+    date: '9 अप्रैल 2025',
+    readTime: '5 मिनट',
+    content: `
+## किरायेदार के अधिकार — पूरी जानकारी
+
+India में Rent Agreement और Tenant Protection laws समझना जरूरी है।
+
+## Rent Agreement क्यों जरूरी है?
+
+- दोनों पक्षों की सुरक्षा
+- Dispute में evidence
+- Address proof के लिए
+- बिना agreement — किरायेदार को ज्यादा rights
+
+## Rent Agreement में क्या होना चाहिए?
+
+- ✅ Rent amount और due date
+- ✅ Security deposit राशि
+- ✅ Agreement duration
+- ✅ Notice period
+- ✅ Maintenance responsibilities
+- ✅ Restrictions (pets, guests)
+- ✅ Rent increase terms
+
+## Registration जरूरी है?
+
+- 11 महीने तक — Notarized काफी है
+- 12 महीने से ज्यादा — Registration जरूरी
+- Registered agreement — ज्यादा legal protection
+
+## किरायेदार के अधिकार
+
+- ✅ Peaceful possession का अधिकार
+- ✅ Essential services — बिजली, पानी नहीं काट सकते
+- ✅ Security deposit वापसी — deductions के साथ
+- ✅ Proper notice के बिना नहीं निकाल सकते
+- ✅ Privacy का अधिकार — बिना notice घर में नहीं आ सकते
+
+## Landlord क्या नहीं कर सकता?
+
+- ❌ बिना notice अचानक नहीं निकाल सकता
+- ❌ बिजली-पानी नहीं काट सकता
+- ❌ बिना permission अंदर नहीं आ सकता
+- ❌ Security deposit unfairly नहीं रोक सकता
+- ❌ Rent receipt देने से मना नहीं कर सकता
+
+## Notice Period
+
+- Agreement में जो लिखा हो
+- Default: 1 महीने का notice दोनों तरफ से
+- Registered agreement में ज्यादा protection
+
+## Security Deposit
+
+- Maximum 2-3 महीने का rent
+- Refundable होता है
+- Deductions — genuine damage के लिए
+- Receipt जरूर लें
+
+## Dispute होने पर?
+
+1. Rent Controller के पास जाएं
+2. District court में case
+3. Legal Aid — Free
+
+📞 Legal Aid: 15100 (Free)
+    `,
+  },
+  {
+    slug: 'domestic-violence-law-india',
+    title: 'घरेलू हिंसा — कानूनी अधिकार और Protection Order कैसे मिलेगा',
+    description: 'Domestic Violence Act 2005 के तहत महिलाओं के अधिकार। Protection order, shelter home, maintenance — कैसे मदद मिलेगी हिंदी में।',
+    category: 'Family Law',
+    categoryColor: 'bg-pink-100 text-pink-700',
+    icon: '🛡️',
+    date: '9 अप्रैल 2025',
+    readTime: '5 मिनट',
+    content: `
+## घरेलू हिंसा — कानूनी सुरक्षा
+
+Protection of Women from Domestic Violence Act 2005 महिलाओं को व्यापक सुरक्षा देता है।
+
+## Domestic Violence क्या है?
+
+सिर्फ मारपीट नहीं — इसमें शामिल है:
+- ✅ Physical violence — मारना, धकेलना
+- ✅ Emotional abuse — गाली, अपमान
+- ✅ Economic abuse — पैसे न देना
+- ✅ Sexual abuse
+- ✅ Verbal abuse
+
+## तुरंत क्या करें?
+
+1. Safe जगह जाएं — पड़ोसी, रिश्तेदार
+2. Police को call करें — 100 या 112
+3. Women helpline: 1091 या 181
+4. Medical help लें — injuries document करें
+5. Evidence रखें — photos, messages
+
+## Protection Order कैसे मिलेगा?
+
+1. Magistrate court में application दें
+2. Protection Officer की मदद लें — Free
+3. Emergency — 24 घंटे में order
+4. Order से पति घर में आ नहीं सकता
+
+## क्या मिल सकता है?
+
+- ✅ Protection Order — हिंसा रोकने के लिए
+- ✅ Residence Order — घर में रहने का अधिकार
+- ✅ Monetary Relief — maintenance
+- ✅ Custody Order — बच्चों की custody
+- ✅ Compensation Order
+
+## कहाँ Help मिलेगी?
+
+- Protection Officer — हर जिले में
+- NCW (National Commission for Women): 7827170170
+- One Stop Centre — Free shelter, legal, medical help
+- Legal Aid: 15100
+
+## FIR भी करें
+
+IPC 498A के तहत:
+- Cruelty against wife
+- Non-bailable offence
+- Husband और in-laws पर case
+
+## Shelter Home
+
+Emergency में:
+- One Stop Centre में रह सकती हैं
+- Free shelter, food, legal help
+- Nari Niketan — सरकारी shelter
+
+📞 Women Helpline: 181 (24/7 Free)
+📞 NCW: 7827170170
+📞 Police: 100
+    `,
+  },
+  {
+    slug: 'cheque-bounce-case-kaise-kare',
+    title: 'Cheque Bounce Case कैसे करें — Section 138 NI Act 2025',
+    description: 'Cheque bounce होने पर kya karein. Legal notice, court case, compensation kaise milega — Section 138 ki puri process Hindi mein.',
+    category: 'Legal Notice',
+    categoryColor: 'bg-yellow-100 text-yellow-700',
+    icon: '📄',
+    date: '9 अप्रैल 2025',
+    readTime: '5 मिनट',
+    content: `
+## Cheque Bounce — पूरी कानूनी प्रक्रिया
+
+Cheque bounce एक criminal offence है — Section 138 Negotiable Instruments Act के तहत।
+
+## Cheque Bounce होने पर तुरंत करें
+
+1. Bank से "Cheque Return Memo" लें
+2. Reason note करें — Insufficient funds / Account closed
+3. 30 दिन के अंदर Legal Notice भेजें
+
+## Legal Notice — जरूरी है!
+
+Notice में लिखें:
+- Cheque details — number, amount, date
+- Bounce का reason
+- 15 दिन में payment की demand
+- Court action की चेतावनी
+
+Registered post से भेजें — Receipt संभालें।
+
+## Court Case कब करें?
+
+Notice के बाद:
+- 15 दिन में payment न आए
+- Notice receive करने के बाद 1 महीने के अंदर court जाएं
+
+## Magistrate Court में Case
+
+1. Complaint file करें
+2. Cheque, return memo, notice की copies दें
+3. Affidavit दें
+4. Court summons भेजेगी
+5. Trial होगी
+
+## क्या सजा हो सकती है?
+
+- 2 साल तक की कैद
+- या Cheque amount का दोगुना जुर्माना
+- या दोनों
+
+## Compensation कैसे मिलेगा?
+
+- Court Cheque amount + interest दिला सकती है
+- Legal fees भी मिल सकती है
+- Cheque amount recover होने की ज्यादा chance
+
+## Time Limit याद रखें
+
+| Action | Time Limit |
+|--------|-----------|
+| Legal Notice | 30 दिन के अंदर |
+| Payment demand | 15 दिन |
+| Court complaint | Notice + 15 दिन के बाद, 1 महीने के अंदर |
+
+## वकील चाहिए?
+
+- Simple cases में खुद भी कर सकते हैं
+- Amount बड़ा हो तो वकील लें
+- Legal Aid — Free: 15100
+
+📞 Legal Aid: 15100 (Free)
+    `,
+  },
+  {
+    slug: 'police-complaint-against-police',
+    title: 'पुलिस की शिकायत कैसे करें — Police Brutality और Misconduct',
+    description: 'Police ne galat kiya, FIR nahi likhi, harassment ki — kahan complaint karein, kaise karein, kya hoga. Adhikar janein Hindi mein.',
+    category: 'FIR और पुलिस',
+    categoryColor: 'bg-red-100 text-red-700',
+    icon: '🚔',
+    date: '9 अप्रैल 2025',
+    readTime: '5 मिनट',
+    content: `
+## पुलिस के खिलाफ शिकायत — पूरी जानकारी
+
+पुलिस भी कानून के अधीन है। गलत व्यवहार के खिलाफ आप शिकायत कर सकते हैं।
+
+## कब करें शिकायत?
+
+- ✅ FIR दर्ज करने से मना किया
+- ✅ रिश्वत माँगी
+- ✅ बिना reason गिरफ्तार किया
+- ✅ Custody में मारपीट की
+- ✅ जानबूझकर case में देरी
+- ✅ Harassment या intimidation
+
+## शिकायत कहाँ करें?
+
+### 1. वरिष्ठ अधिकारी को:
+- SP (Superintendent of Police) Office
+- DIG या IG Office
+- लिखित complaint दें
+
+### 2. Police Complaints Authority:
+- राज्य स्तरीय independent body
+- Online या offline complaint
+- Investigation होती है
+
+### 3. National Human Rights Commission:
+- nhrc.nic.in
+- Online complaint करें
+- Serious cases के लिए
+
+### 4. State Human Rights Commission:
+- अपने राज्य की SHRC
+- Faster resolution
+
+### 5. Court में:
+- High Court में PIL
+- Magistrate के पास complaint
+
+## FIR न लिखने पर क्या करें?
+
+1. SP को written complaint दें
+2. Magistrate के पास Section 156(3) application
+3. High Court में writ petition
+4. State Human Rights Commission
+
+## Custody में Torture हो तो?
+
+- तुरंत family को inform करें
+- Lawyer की मांग करें — यह अधिकार है
+- Medical examination कराएं
+- NHRC में complaint करें
+
+## आपके Fundamental Rights
+
+- ✅ Arrest के 24 घंटे के अंदर Magistrate के सामने
+- ✅ Lawyer रखने का अधिकार
+- ✅ Family को inform करने का अधिकार
+- ✅ Medical help का अधिकार
+- ✅ Silent रहने का अधिकार
+
+📞 NHRC: 14433
+📞 Police Complaint: SP Office नजदीकी
+📞 Legal Aid: 15100 (Free)
+    `,
+  },
+  {
+    slug: 'insurance-claim-process',
+    title: 'Insurance Claim कैसे करें — Health, Car, Life Insurance 2025',
+    description: 'Insurance claim reject ho jaata hai to kya karein. Health insurance cashless claim, car insurance, life insurance claim process Hindi mein.',
+    category: 'उपभोक्ता अधिकार',
+    categoryColor: 'bg-blue-100 text-blue-700',
+    icon: '📋',
+    date: '9 अप्रैल 2025',
+    readTime: '6 मिनट',
+    content: `
+## Insurance Claim — पूरी जानकारी
+
+Insurance claim करना आसान है — बस process सही होनी चाहिए।
+
+## Health Insurance Claim
+
+### Cashless Treatment:
+1. Network hospital में जाएं
+2. Insurance card दिखाएं
+3. Pre-authorization form भरें
+4. Hospital सीधे insurance company से settle करती है
+
+### Reimbursement:
+1. Non-network hospital में treatment
+2. सभी bills और reports save करें
+3. 30 दिन के अंदर claim करें
+4. Documents submit करें
+5. 30-45 दिन में payment
+
+### Documents:
+- ✅ Hospital bills (original)
+- ✅ Discharge summary
+- ✅ Prescription और reports
+- ✅ Policy number
+- ✅ आधार कार्ड
+
+## Car Insurance Claim
+
+### Accident होने पर तुरंत:
+1. Police FIR करें — जरूरी है
+2. Photos लें — car damage, accident spot
+3. Insurance company को inform करें — 24 घंटे में
+4. Surveyor आएगा — inspection
+
+### Process:
+- Survey report बाद repair शुरू
+- Garage bill insurance company को
+- Deductible अपनी जेब से
+
+## Life Insurance Claim (Death Claim)
+
+1. Insurance company को inform करें
+2. Death certificate submit करें
+3. Original policy document
+4. Nominee के documents
+5. 30 दिन में payment
+
+## Claim Reject हो तो क्या करें?
+
+### Level 1: Insurance Company:
+- Written complaint दें
+- Grievance department को
+
+### Level 2: IRDAI (Insurance Regulator):
+- irdai.gov.in पर complaint
+- या 1800-4254-732 पर call
+
+### Level 3: Insurance Ombudsman:
+- cioins.co.in
+- Free service
+- 30 दिन में decision
+
+### Level 4: Consumer Court:
+- अगर ऊपर से न मिले
+
+## Common Rejection Reasons
+
+| Reason | Solution |
+|--------|---------|
+| Pre-existing condition | Policy लेते समय declare करें |
+| Late claim | समय पर claim करें |
+| Documents incomplete | Complete documents दें |
+| Policy lapsed | Premium समय पर भरें |
+
+📞 IRDAI Helpline: 1800-4254-732 (Free)
+🌐 irdai.gov.in
+    `,
+  },
 ]
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
