@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
+import AuthorBio from '@/components/AuthorBio'
 import { blogPosts, getPostBySlug, getAllSlugs, type BlogPost } from '../_posts'
 
 interface Props {
@@ -214,7 +215,7 @@ export default async function BlogPostPage({ params }: Props) {
         <div className="flex items-center gap-3 text-xs text-gray-400 pt-3 border-t border-gray-100">
           <span>📅 {post.date}</span>
           <span>•</span>
-          <span>⚖️ LegalSathi AI</span>
+          <span>✍️ Adv. Meera Sharma</span>
           <span>•</span>
           <span>🇮🇳 हिंदी</span>
         </div>
@@ -231,6 +232,11 @@ export default async function BlogPostPage({ params }: Props) {
       {/* Content */}
       <div className="bg-white border border-gray-100 rounded-2xl p-5 mb-4 shadow-sm">
         {renderContent(post.content)}
+      </div>
+
+      {/* Author Bio */}
+      <div className="bg-white border border-gray-100 rounded-2xl p-5 mb-4 shadow-sm">
+        <AuthorBio />
       </div>
 
       {/* CTA */}

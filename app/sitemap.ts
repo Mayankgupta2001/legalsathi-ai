@@ -1,5 +1,6 @@
 import { MetadataRoute } from 'next'
 import { getAllSlugs } from './blog/_posts'
+import legalCategories from '@/data/legal-categories.json'
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://legalsathi-ai.vercel.app'
@@ -10,6 +11,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     lastModified: now,
     changeFrequency: 'monthly' as const,
     priority: 0.7,
+  }))
+
+  const legalCategoryUrls: MetadataRoute.Sitemap = legalCategories.map((category: any) => ({
+    url: `${baseUrl}/legal/${category.slug}`,
+    lastModified: now,
+    changeFrequency: 'weekly' as const,
+    priority: 0.8,
   }))
 
   return [
@@ -49,6 +57,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'monthly',
       priority: 0.3,
     },
+    ...legalCategoryUrls,
     ...blogUrls,
   ]
 }
